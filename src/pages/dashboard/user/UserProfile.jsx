@@ -121,10 +121,10 @@ const UserProfile = () => {
                                     ></textarea>
                                 </div>
                                 <div className='mb-4'>
-                                    <label htmlFor="profession" className='block text-sm font-medium text-gray-700 '>Profession</label>
+                                    <label htmlFor="profession" className='block text-sm font-medium text-gray-700 '>Team Name</label>
                                     <input type="text" name='profession' value={formData?.profession}
                                         onChange={handleChange}
-                                        placeholder='profession'
+                                        placeholder='Team-Name'
                                         className='mt-1 p-2 w-full border border-gray-300 rounded-md shadow-sm'
                                         required
                                     />
