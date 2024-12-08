@@ -25,7 +25,7 @@ const UserProfile = () => {
             username: user?.username || '',
             profileImage: user?.profileImage || '',
             bio: user?.bio || '',
-            profession: user?.profession || '',
+            profession: user?.team || '',
             userId: user?._id || ''
            })
         }
